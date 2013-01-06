@@ -1,0 +1,24 @@
+Compilacion desde terminal:
+            
+            javac tarea1.java tarea1Manual.javac
+            
+Ejecucicion:
+
+tarea1:
+        java tarea1 --metodo [1|2|3] -n N -m M
+        
+        siendo:
+                N el numero de coeficientes de los polinomios a multiplicar
+                M el valor en donde se cambiara el metodo 2 al metodo 1, siendo 64 el optimo M.
+                
+
+tarea1Manual:
+        java tarea1Manual --metodo [1|2|3]
+        java tarea1Manual --metodo [1|2|3] < input.txt > output.txt
+        
+        siendo:
+                input.txt entrada en formato:
+                        N
+                        p0 p1 p2.... pN
+                        q0 q1 q2.... qN
+                        0
